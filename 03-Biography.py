@@ -1,8 +1,8 @@
-Name = input("Enter your Name:")
-Hometown = input("Enter your Hometown:")
-Age = input("Enter your Age:")
+Biography = {
+    "Name": "Raqeeb" ,
+    "Hometown" : "Dubai",
+    "Age" : 18
 
-print("\nYour Biography:")
-print("Name:", Name )
-print("Hometown:", Hometown)
-print("Age:", Age)
+}
+
+print(Biography["Name"], Biography["Hometown"], Biography["Age"], sep="\n")
